@@ -1,0 +1,43 @@
+@relation type_gender
+
+@attribute Beauty {true, false}
+@attribute Books {true, false}
+@attribute Business {true, false}
+@attribute Cooking {true, false}
+@attribute Communication {true, false}
+@attribute Education {true, false}
+@attribute Dating {true, false}
+@attribute Dieting {true, false}
+@attribute Fashion {true, false}
+@attribute Finance {true, false}
+@attribute Fitness {true, false}
+@attribute Food {true, false}
+@attribute Games {true, false}
+@attribute Heath {true, false}
+@attribute Music {true, false}
+@attribute Shopping {true, false}
+@attribute Social {true, false}
+@attribute Travel {true, false}
+@attribute gender	{woman, man}
+
+@data
+%
+% 12 instances
+%
+
+%Beayty,Books,  Business,   Coking,Comm,  Educat,   Dating,Dieting, Fashion,Financ, Fitness,Food,   Games,  Health, Music,  Shoppin,Social, Travel
+false, false,   true,       false, true,  false,    false, false,   false,  true,   true,   true,   true,   false,  true,   false,  true,   true,  man
+true,  true,    false,      false, true,  true,     false, true,    true,   true,   true,   true,   true,   true,   true,   false,  true,   false, woman
+false, false,   false,      true,  true,  false,    false, false,   false,  false,  false,  false,  true,   false,  true,   false,  true,   false, woman
+false, false,   false,      false, true,  false,    false, false,   false,  true,   false,  false,  false,  false,  true,   false,  false,  false, woman
+false, false,   false,      false, true,  true,     false, false,   false,  true,   true,   true,   true,   true,   true,   false,  true,   true,  man
+false, true,    true,       false, true,  false,    false, true,    false,  true,   false,  true,   true,   false,  false,  false,  false,  false, man
+false, false,   true,       false, false, false,    false, false,   false,  false,  false,  false,  true,   false,  true,   false,  true,   false, woman
+false, false,   false,      false, true,  false,    true,  true,    false,  true,   true,   false,  true,   false,  true,   false,  true,   false, man
+true,  false,   false,      true,  true,  false,    false, false,   false,  true,   false,  true,   false,  false,  true,   true,   false,  true,  woman
+false, false,   false,      false, true,  false,    false, false,   false,  false,  false,  true,   false,  true,   true,   false,  true,   false, man
+false, true,    true,       false, true,  true,     false, true,    true,   false,  false,  false,  true,   false,  true,   false,  true,   false, woman
+false, false,   true,       false, true,  false,    false, false,   false,  true,   false,  true,   true,   false,  true,   false,  true,   false, woman
+
+
+

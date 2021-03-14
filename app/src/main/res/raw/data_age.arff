@@ -1,0 +1,40 @@
+@relation type_age
+
+@attribute Beauty {true, false}
+@attribute Books {true, false}
+@attribute Business {true, false}
+@attribute Cooking {true, false}
+@attribute Communication {true, false}
+@attribute Education {true, false}
+@attribute Dating {true, false}
+@attribute Dieting {true, false}
+@attribute Fashion {true, false}
+@attribute Finance {true, false}
+@attribute Fitness {true, false}
+@attribute Food {true, false}
+@attribute Games {true, false}
+@attribute Heath {true, false}
+@attribute Music {true, false}
+@attribute Shopping {true, false}
+@attribute Social {true, false}
+@attribute Travel {true, false}
+@attribute age {18-, 19-29, 30-45, 46+}
+
+@data
+%
+% 12 instances
+%
+
+%Beayty,Books,  Business,   Coking,Comm,  Educat,   Dating,Dieting, Fashion,Financ, Fitness,Food,   Games,  Health, Music,  Shoppin,Social, Travel
+false, false,   true,       false, true,  false,    false, false,   false,  true,   true,   true,   true,   false,  true,   false,  true,   true,  18-
+true,  true,    false,      false, true,  true,     false, true,    true,   true,   true,   true,   true,   true,   true,   false,  true,   false, 18-
+false, false,   false,      true,  true,  false,    false, false,   false,  false,  false,  false,  true,   false,  true,   false,  true,   false, 19-29
+false, false,   false,      false, true,  false,    false, false,   false,  true,   false,  false,  false,  false,  true,   false,  false,  false, 19-29
+false, false,   false,      false, true,  true,     false, false,   false,  true,   true,   true,   true,   true,   true,   false,  true,   true,  19-29
+false, true,    true,       false, true,  false,    false, true,    false,  true,   false,  true,   true,   false,  false,  false,  false,  false, 19-29
+false, false,   true,       false, false, false,    false, false,   false,  false,  false,  false,  true,   false,  true,   false,  true,   false, 30-45
+false, false,   false,      false, true,  false,    true,  true,    false,  true,   true,   false,  true,   false,  true,   false,  true,   false, 30-45
+true,  false,   false,      true,  true,  false,    false, false,   false,  true,   false,  true,   false,  false,  true,   true,   false,  true,  46+
+false, false,   false,      false, true,  false,    false, false,   false,  false,  false,  true,   false,  true,   true,   false,  true,   false, 46+
+false, true,    true,       false, true,  true,     false, true,    true,   false,  false,  false,  true,   false,  true,   false,  true,   false, 46+
+false, false,   true,       false, true,  false,    false, false,   false,  true,   false,  true,   true,   false,  true,   false,  true,   false, 19-29
